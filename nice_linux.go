@@ -14,7 +14,7 @@ func (c *Cmd) CombinedOutput() ([]byte, error) {
 }
 
 func ecomb(e1, e2 error) error {
-	if e1!=nil {
+	if e1 != nil {
 		return e1
 	}
 	return e2
