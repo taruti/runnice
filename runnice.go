@@ -1,3 +1,4 @@
+// Runs processes with less priority.
 package runnice
 
 import (
